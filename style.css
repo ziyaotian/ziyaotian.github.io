@@ -1,42 +1,50 @@
-#content {
-  width: 600px;
-  margin: 120px auto;
+  a {
+    text-decoration: none;
+    color: #0066CC;
+  }
+  a:hover {
+    color: black;
+  }
+  #photo { 
+  margin-top: 50px;
+  margin-left: 400px;
+  width: 655px;
+  border-radius: 50%;
 }
+  h1 {
+      margin-top: 15px;
+      margin-bottom: 0px;
+      font-family: 'Tangerine';
+      font-size: 105px;
+      text-align: center;
+      color: black;
+  }
 
-h1 {
-  font-size: 36px;
-  margin-bottom: 8px;
-}
+  #line {
+    width: 75%;
+    background-color: pink;
+  }
 
-.subtext {
-  font-size: 18px;
-  font-style: italic;
+section.content {
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 h2 {
-  font-size: 24px;
-  margin: 40px 0 8px 0;
+  
+  text-align: center;
+  font-color: black;
+  font-size: 50px;
+  margin: 10px 0 20px 0;
+}
+
+p {
+  margin-top: 0px;
 }
 
 body {
-  font-family: 'Lato', sans-serif;
-}
-
-h1, h2 {
-  color: #660000;
-}
-
-#line {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 4px;
-  background-color: #0066CC;
-}
-
-#photo {
-  width: 150px;
+  
+  font-size: 35px;
 }
 
 #project-list {
@@ -47,10 +55,13 @@ h1, h2 {
 }
 
 .project {
-  flex: 0 0 140px;                /* No grow/shrink, 140px width */
-  height: 140px;
-  margin-bottom: 10px;
+  flex: 0 0 305px;                /* No grow/shrink, 140px width */
+  height: 270px;
+  margin-right: 25px;
+  margin-bottom: 25px;
   background-color: #7AA3CC;
+  display: inline-block;
+  width: 310px;
 }
 
 .project {
@@ -59,4 +70,19 @@ h1, h2 {
 
 .project:hover {
   background-color: #0066CC;
+}
+
+ul li{
+  margin-left: 80px;
+  margin-right: 25px;
+  text-decoration: none;
+  display: inline;
+}
+
+ul li a: hover {
+  color: black;
+}
+
+footer {
+  text-align: center;
 }
